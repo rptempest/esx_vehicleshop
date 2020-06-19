@@ -38,7 +38,7 @@ CREATE TABLE `vehicle_sold` (
 );
 
 CREATE TABLE `owned_vehicles` (
-	`owner` varchar(40) NOT NULL,
+	`owner` varchar(60) NOT NULL,
 	`plate` varchar(12) NOT NULL,
 	`vehicle` longtext,
 	`type` VARCHAR(20) NOT NULL DEFAULT 'car',
@@ -308,7 +308,7 @@ INSERT INTO `vehicles` (name, model, price, category) VALUES
 	('Oppressor', 'oppressor', 3524500, 'super'),
 	('Visione', 'visione', 2250000, 'super'),
 	('Retinue', 'retinue', 615000, 'sportsclassics'),
-	('Cyclone', 'cyclone', 1890000, 'super'), 
+	('Cyclone', 'cyclone', 1890000, 'super'),
 	('Rapid GT3', 'rapidgt3', 885000, 'sportsclassics'),
 	('raiden', 'raiden', 1375000, 'sports'),
 	('Yosemite', 'yosemite', 485000, 'muscle'),
@@ -325,7 +325,7 @@ INSERT INTO `vehicles` (name, model, price, category) VALUES
 	('Z190', 'z190', 900000, 'sportsclassics'),
 	('Viseris', 'viseris', 875000, 'sportsclassics'),
 	('Autarch', 'autarch', 1955000, 'super'),
-	('Comet 5', 'comet5', 1145000, 'sports'), 
+	('Comet 5', 'comet5', 1145000, 'sports'),
 	('Neon', 'neon', 1500000, 'sports'),
 	('Revolter', 'revolter', 1610000, 'sports'),
 	('Sentinel3', 'sentinel3', 650000, 'sports'),
